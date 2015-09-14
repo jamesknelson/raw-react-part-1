@@ -3,34 +3,35 @@ body {
   margin: 0;
 }
 
-.ContactView > h1 {
+.ContactView-title {
   font-size: 24px;
   padding: 0 24px;
 }
 
-.ContactList {
+.ContactView-list {
   list-style: none;
   margin: 0;
   padding: 0;
   border-top: 1px solid #f0f0f0;
 }
-.ContactList > li {
+
+.ContactItem {
   margin: 0;
   padding: 8px 24px;
   border-bottom: 1px solid #f0f0f0;
 }
-
-.Contact-name {
+.ContactItem-name {
   font-size: 16px;
   font-weight: bold;
+  margin: 0;
 }
-.Contact-email {
+.ContactItem-email {
   font-size: 14px;
   margin-top: 4px;
   font-style: italic;
   color: #888;
 }
-.Contact-description {
+.ContactItem-description {
   font-size: 14px;
   margin-top: 4px;
 }
